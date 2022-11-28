@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         val bRight = findViewById<Button>(R.id.goRight)
         val res = findViewById<Button>(R.id.submitResult)
         // make array with drawables
-        val images = arrayOf(R.drawable.i1, R.drawable.i2, R.drawable.i3)
+        val images = arrayOf(R.drawable.bambik, R.drawable.zolw, R.drawable.kapibara)
         val image = findViewById<ImageView>(R.id.imageView)
         bLeft.setOnClickListener() {
             // go to left image array, if last go to first
